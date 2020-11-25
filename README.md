@@ -1,10 +1,7 @@
-## (Deprecated) Authentication with Fauna 
+Authentication with Fauna 
 
-This repository is deprecated (yet kept online for the people who started following it) in favor of different repositories per approach to help new users find their way. 
-
-The repositories that are available or will become available are listed below.
-
-
+This repository has moved to different repositories per approach to help new users find their way (see below)
+The repositories that are available or will become available are listed below, this repository is kept online for the people who started following it, bookmarked it or want to see an overview of all auth skeletons I wrote.  
 
 #### Available: 
 
