@@ -18,7 +18,7 @@ The repositories that are available or will become available are listed below, t
 
 #### In progress:
 
-- [Fauna authentication with backend, refresh flow with httpOnly cookies](https://github.com/fauna-brecht/faunadb-auth-skeleton-backend) 
+- (still private, soon available) [Fauna authentication with backend, refresh flow with httpOnly cookies](https://github.com/fauna-brecht/faunadb-auth-skeleton-backend) 
 
   In this article we dive into writing a more secure authentication flow where we will use httpOnly cookies to store refresh tokens securely (tokens created in Fauna with specific permissions) and use short-lived access tokens in the frontend. The refresh token is stored in a httpOnly cookie which requires us to have a small backend that takes care of this specific flow but ensures that the refresh token (the more powerful of the two) is never exposed to the frontend. For other calls we have the option to therefore bypass the backend (if desired) and access the database directly from the frontend yet benefit from greater security since the token that will be exposed to the frontend will only receive access for a very short time which significantly limits the risks.
 
