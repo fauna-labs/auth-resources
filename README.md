@@ -3,7 +3,9 @@ Authentication with Fauna
 This repository has moved to different repositories per approach to help new users find their way (see below)
 The repositories that are available or will become available are listed below, this repository is kept online for the people who started following it, bookmarked it or want to see an overview of all auth skeletons I wrote.  
 
-#### Available: 
+### Available: 
+#### Skeleton apps:
+
 
 - [Fauna authentication from the frontend](https://github.com/fauna-brecht/faunadb-auth-skeleton-frontend) 
 
@@ -16,7 +18,16 @@ The repositories that are available or will become available are listed below, t
   - Authentication and setup: https://fauna.com/blog/setting-up-sso-authentication-in-fauna-with-auth0
   - Authorization: https://fauna.com/blog/setting-advanced-role-based-access-patterns-in-your-spa-with-fauna-and-auth0
 
-#### In progress:
+#### Blueprints:
+Blueprints are pure FQL solutions that can be set up easily with the [Fauna Schema Migrate]https://github.com/fauna-labs/fauna-schema-migrate tool. Since they are pure FQL and no specific backend or framework frontend code, they are typically not the complete solution (e.g. you can not yet send emails from pure FQL, nor set httpOnly cookies). They do provide an easy to set up Fauna API to create such functionality. 
+
+- [Email verification] https://github.com/fauna-labs/fauna-blueprints/tree/main/official/auth/email-verification
+- [Password reset] https://github.com/fauna-labs/fauna-blueprints/tree/main/official/auth/password-reset
+- [Basic register/login/logout] https://github.com/fauna-labs/fauna-blueprints/tree/main/official/auth/register-login-logout
+- [Basic refrehs tokens] https://github.com/fauna-labs/fauna-blueprints/tree/main/official/auth/refresh-tokens-simple
+- [Advanced refresh tokens] https://github.com/fauna-labs/fauna-blueprints/tree/main/official/auth/refresh-tokens-advanced
+
+### In progress:
 
 - (still private, soon available) [Fauna authentication with backend, refresh flow with httpOnly cookies](https://github.com/fauna-brecht/faunadb-auth-skeleton-backend) 
 
