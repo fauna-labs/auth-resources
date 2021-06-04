@@ -23,7 +23,7 @@ More blogs inline along with the resources listed below.
 - **Blueprint:** [Basic register/login/logout](https://github.com/fauna-labs/fauna-blueprints/tree/main/official/auth/register-login-logout), a simple register, login and logout implementation in pure FQL. 
 - **Blueprint:** [Basic refresh tokens](https://github.com/fauna-labs/fauna-blueprints/tree/main/official/auth/refresh-tokens-simple) a refresh flow in pure FQL.
   - **Blog:** a blog was written that [explains the blueprint implementation](https://fauna.com/blog/refreshing-authentication-tokens-in-fql).
-- **Blueprint**[Advanced refresh tokens](https://github.com/fauna-labs/fauna-blueprints/tree/main/official/auth/refresh-tokens-advanced, an advanced implementation of a refresh flow with leaked token detection and other advanced features. 
+- **Blueprint**[Advanced refresh tokens](https://github.com/fauna-labs/fauna-blueprints/tree/main/official/auth/refresh-tokens-advanced), an advanced implementation of a refresh flow with leaked token detection and other advanced features. 
   - **Blog:**  ablog was written that [explains the blueprint implementation](https://fauna.com/blog/detecting-leaked-authentication-tokens-in-fql). 
 
 
