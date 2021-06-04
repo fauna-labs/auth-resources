@@ -6,13 +6,17 @@ This repository bundles authentication resources together. These  contains unoff
 
 
 
-#### Guidance:
+### Guidance
+
 - **Blog:** [Choosing an authentication strategy with Fauna](https://fauna.com/blog/choosing-an-authentication-strategy-with-fauna)
 
 More blogs inline along with the resources listed below. 
 
-#### Blueprints:
-Blueprints are pure FQL solutions that can be set up easily with the [Fauna Schema Migrate](https://github.com/fauna-labs/fauna-schema-migrate) tool. Since they are pure FQL and no specific backend or framework frontend code, they are typically not the complete solution (e.g. you can not yet send emails from pure FQL, nor set httpOnly cookies). They do provide an easy to set up Fauna API to create such functionality. 
+
+
+### Blueprints
+
+[Blueprints](https://github.com/fauna-labs/fauna-blueprints) are pure FQL solutions that can be set up easily with the [Fauna Schema Migrate](https://github.com/fauna-labs/fauna-schema-migrate) tool. Since they are pure FQL and no specific backend or framework frontend code, they are typically not the complete solution (e.g. you can not yet send emails from pure FQL, nor set httpOnly cookies). They do provide an easy to set up Fauna API to create such functionality. 
 
 - **Blueprint:** [Email verification](https://github.com/fauna-labs/fauna-blueprints/tree/main/official/auth/email-verification), verify a users email based on verification tokens. Two functions are provided, one to request a token, one to verify the user.
 - **Blueprint:** [Password reset](https://github.com/fauna-labs/fauna-blueprints/tree/main/official/auth/password-reset), a blueprint that implements a password reset flow in FQL. The blueprint provides the means to request a token (that can then be send to the user via email or other means) and a password reset function that operates with this requested token. It also provides a password change function which verified the previous password for logged-in scenarios. 
@@ -22,7 +26,9 @@ Blueprints are pure FQL solutions that can be set up easily with the [Fauna Sche
 - **Blueprint**[Advanced refresh tokens](https://github.com/fauna-labs/fauna-blueprints/tree/main/official/auth/refresh-tokens-advanced, an advanced implementation of a refresh flow with leaked token detection and other advanced features. 
   - **Blog:**  ablog was written that [explains the blueprint implementation](https://fauna.com/blog/detecting-leaked-authentication-tokens-in-fql). 
 
-#### Skeleton applications:
+
+
+### Skeleton applications
 
 - **Skeleton app:** [Fauna authentication from the frontend](https://github.com/fauna-labs/fauna-auth-skeleton-frontend) 
 
